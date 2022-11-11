@@ -22,6 +22,7 @@ require (
 	k8s.io/client-go v0.23.5
 	k8s.io/code-generator v0.23.5
 	knative.dev/eventing v0.32.0
+	knative.dev/func v0.35.0
 	knative.dev/hack v0.0.0-20220524153203-12d3e2a7addc
 	knative.dev/networking v0.0.0-20220524205304-22d1b933cf73
 	knative.dev/pkg v0.0.0-20220524202603-19adf798efb8
@@ -183,3 +184,6 @@ replace (
 
 // Plugin kn-plugin-event from midstream
 replace knative.dev/kn-plugin-event => github.com/openshift-knative/kn-plugin-event v0.32.1-0.20220601003552-7c29d149ba16
+
+// Plugin func from midstream
+replace knative.dev/func => github.com/openshift-knative/kn-plugin-func v1.1.3-0.20221111203335-2434677faa83
